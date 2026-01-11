@@ -1,0 +1,495 @@
+2026-01-09 15:36:26,395 - INFO - Creating vendor summary table
+2026-01-09 15:36:40,486 - INFO - Creating vendor summary table
+2026-01-09 15:36:49,795 - INFO -    VendorNumber                   VendorName  Brand  \
+0          8320  SHAW ROSS INT L IMP LTD         58   
+1          1128  BROWN-FORMAN CORP               62   
+2          1128  BROWN-FORMAN CORP               63   
+3          9165  ULTRA BEVERAGE COMPANY LLP      72   
+4          7245  PROXIMO SPIRITS INC.            75   
+
+                   Description  Actual_Price  PurchasePrice Volume  \
+0  Gekkeikan Black & Gold Sake         12.99           9.28    750   
+1     Herradura Silver Tequila         36.99          28.67    750   
+2   Herradura Reposado Tequila         38.99          30.46    750   
+3         No. 3 London Dry Gin         34.99          26.11    750   
+4    Three Olives Tomato Vodka         14.99          10.94    750   
+
+  TotalsalesQuantity TotalsalesDollers TotalsalesPrice TotalsalesExciseTax  \
+0               None              None            None                None   
+1               None              None            None                None   
+2               None              None            None                None   
+3               None              None            None                None   
+4               None              None            None                None   
+
+   TotalpurchaseQuantity  TotalPurchaseDollars  FreightCost  
+0                69127.0             624979.64      3151.92  
+1              1006122.0           13529433.08     68601.68  
+2              1006122.0           13529433.08     68601.68  
+3              1077527.0           13210613.93     68054.70  
+4               682042.0            7588029.90     38994.78  
+2026-01-09 15:36:49,814 - INFO - Cleaning data
+2026-01-09 15:36:49,871 - INFO -    VendorNumber                  VendorName  Brand  \
+0          8320     SHAW ROSS INT L IMP LTD     58   
+1          1128           BROWN-FORMAN CORP     62   
+2          1128           BROWN-FORMAN CORP     63   
+3          9165  ULTRA BEVERAGE COMPANY LLP     72   
+4          7245        PROXIMO SPIRITS INC.     75   
+
+                   Description  Actual_Price  PurchasePrice  Volume  \
+0  Gekkeikan Black & Gold Sake         12.99           9.28   750.0   
+1     Herradura Silver Tequila         36.99          28.67   750.0   
+2   Herradura Reposado Tequila         38.99          30.46   750.0   
+3         No. 3 London Dry Gin         34.99          26.11   750.0   
+4    Three Olives Tomato Vodka         14.99          10.94   750.0   
+
+   TotalsalesQuantity  TotalsalesDollers  TotalsalesPrice  \
+0                   0                  0                0   
+1                   0                  0                0   
+2                   0                  0                0   
+3                   0                  0                0   
+4                   0                  0                0   
+
+   TotalsalesExciseTax  TotalpurchaseQuantity  TotalPurchaseDollars  \
+0                    0                69127.0             624979.64   
+1                    0              1006122.0           13529433.08   
+2                    0              1006122.0           13529433.08   
+3                    0              1077527.0           13210613.93   
+4                    0               682042.0            7588029.90   
+
+   FreightCost  GrossProfit  StockturnOver  SalesPurchaseRate  
+0      3151.92   -624979.64            0.0                0.0  
+1     68601.68 -13529433.08            0.0                0.0  
+2     68601.68 -13529433.08            0.0                0.0  
+3     68054.70 -13210613.93            0.0                0.0  
+4     38994.78  -7588029.90            0.0                0.0  
+2026-01-09 15:36:49,878 - INFO - Ingesting data
+2026-01-09 15:39:05,019 - INFO - Creating vendor summary table
+2026-01-09 15:40:10,629 - INFO - Creating vendor summary table
+2026-01-09 15:40:44,446 - INFO -    VendorNumber                   VendorName  Brand  \
+0          8320  SHAW ROSS INT L IMP LTD         58   
+1          1128  BROWN-FORMAN CORP               62   
+2          1128  BROWN-FORMAN CORP               63   
+3          9165  ULTRA BEVERAGE COMPANY LLP      72   
+4          7245  PROXIMO SPIRITS INC.            75   
+
+                   Description  Actual_Price  PurchasePrice Volume  \
+0  Gekkeikan Black & Gold Sake         12.99           9.28    750   
+1     Herradura Silver Tequila         36.99          28.67    750   
+2   Herradura Reposado Tequila         38.99          30.46    750   
+3         No. 3 London Dry Gin         34.99          26.11    750   
+4    Three Olives Tomato Vodka         14.99          10.94    750   
+
+   TotalsalesQuantity  TotalsalesDollers  TotalsalesPrice  \
+0              3446.0           43341.54         28145.64   
+1              3125.0          119863.75         90154.51   
+2              2778.0          112249.22         88553.10   
+3               469.0           17325.31         12626.57   
+4                21.0             314.79           134.91   
+
+   TotalsalesExciseTax  TotalpurchaseQuantity  TotalPurchaseDollars  \
+0              2715.12                69127.0             624979.64   
+1              2463.18              1006122.0           13529433.08   
+2              2190.45              1006122.0           13529433.08   
+3               369.84              1077527.0           13210613.93   
+4                16.53               682042.0            7588029.90   
+
+   FreightCost  
+0      3151.92  
+1     68601.68  
+2     68601.68  
+3     68054.70  
+4     38994.78  
+2026-01-09 15:40:44,451 - INFO - Cleaning data
+2026-01-09 15:40:44,471 - INFO -    VendorNumber                  VendorName  Brand  \
+0          8320     SHAW ROSS INT L IMP LTD     58   
+1          1128           BROWN-FORMAN CORP     62   
+2          1128           BROWN-FORMAN CORP     63   
+3          9165  ULTRA BEVERAGE COMPANY LLP     72   
+4          7245        PROXIMO SPIRITS INC.     75   
+
+                   Description  Actual_Price  PurchasePrice  Volume  \
+0  Gekkeikan Black & Gold Sake         12.99           9.28   750.0   
+1     Herradura Silver Tequila         36.99          28.67   750.0   
+2   Herradura Reposado Tequila         38.99          30.46   750.0   
+3         No. 3 London Dry Gin         34.99          26.11   750.0   
+4    Three Olives Tomato Vodka         14.99          10.94   750.0   
+
+   TotalsalesQuantity  TotalsalesDollers  TotalsalesPrice  \
+0              3446.0           43341.54         28145.64   
+1              3125.0          119863.75         90154.51   
+2              2778.0          112249.22         88553.10   
+3               469.0           17325.31         12626.57   
+4                21.0             314.79           134.91   
+
+   TotalsalesExciseTax  TotalpurchaseQuantity  TotalPurchaseDollars  \
+0              2715.12                69127.0             624979.64   
+1              2463.18              1006122.0           13529433.08   
+2              2190.45              1006122.0           13529433.08   
+3               369.84              1077527.0           13210613.93   
+4                16.53               682042.0            7588029.90   
+
+   FreightCost  GrossProfit  StockturnOver  SalesPurchaseRate  
+0      3151.92   -581638.10       0.049850           0.069349  
+1     68601.68 -13409569.33       0.003106           0.008859  
+2     68601.68 -13417183.86       0.002761           0.008297  
+3     68054.70 -13193288.62       0.000435           0.001311  
+4     38994.78  -7587715.11       0.000031           0.000041  
+2026-01-09 15:40:44,475 - INFO - Ingesting data
+2026-01-09 15:42:19,239 - INFO - Creating vendor summary table
+2026-01-09 15:42:54,049 - INFO -    VendorNumber                   VendorName  Brand  \
+0          8320  SHAW ROSS INT L IMP LTD         58   
+1          1128  BROWN-FORMAN CORP               62   
+2          1128  BROWN-FORMAN CORP               63   
+3          9165  ULTRA BEVERAGE COMPANY LLP      72   
+4          7245  PROXIMO SPIRITS INC.            75   
+
+                   Description  Actual_Price  PurchasePrice Volume  \
+0  Gekkeikan Black & Gold Sake         12.99           9.28    750   
+1     Herradura Silver Tequila         36.99          28.67    750   
+2   Herradura Reposado Tequila         38.99          30.46    750   
+3         No. 3 London Dry Gin         34.99          26.11    750   
+4    Three Olives Tomato Vodka         14.99          10.94    750   
+
+   TotalsalesQuantity  TotalsalesDollers  TotalsalesPrice  \
+0              3446.0           43341.54         28145.64   
+1              3125.0          119863.75         90154.51   
+2              2778.0          112249.22         88553.10   
+3               469.0           17325.31         12626.57   
+4                21.0             314.79           134.91   
+
+   TotalsalesExciseTax  TotalpurchaseQuantity  TotalPurchaseDollars  \
+0              2715.12                69127.0             624979.64   
+1              2463.18              1006122.0           13529433.08   
+2              2190.45              1006122.0           13529433.08   
+3               369.84              1077527.0           13210613.93   
+4                16.53               682042.0            7588029.90   
+
+   FreightCost  
+0      3151.92  
+1     68601.68  
+2     68601.68  
+3     68054.70  
+4     38994.78  
+2026-01-09 15:42:54,056 - INFO - Cleaning data
+2026-01-09 15:42:54,089 - INFO -    VendorNumber                  VendorName  Brand  \
+0          8320     SHAW ROSS INT L IMP LTD     58   
+1          1128           BROWN-FORMAN CORP     62   
+2          1128           BROWN-FORMAN CORP     63   
+3          9165  ULTRA BEVERAGE COMPANY LLP     72   
+4          7245        PROXIMO SPIRITS INC.     75   
+
+                   Description  Actual_Price  PurchasePrice  Volume  \
+0  Gekkeikan Black & Gold Sake         12.99           9.28   750.0   
+1     Herradura Silver Tequila         36.99          28.67   750.0   
+2   Herradura Reposado Tequila         38.99          30.46   750.0   
+3         No. 3 London Dry Gin         34.99          26.11   750.0   
+4    Three Olives Tomato Vodka         14.99          10.94   750.0   
+
+   TotalsalesQuantity  TotalsalesDollers  TotalsalesPrice  \
+0              3446.0           43341.54         28145.64   
+1              3125.0          119863.75         90154.51   
+2              2778.0          112249.22         88553.10   
+3               469.0           17325.31         12626.57   
+4                21.0             314.79           134.91   
+
+   TotalsalesExciseTax  TotalpurchaseQuantity  TotalPurchaseDollars  \
+0              2715.12                69127.0             624979.64   
+1              2463.18              1006122.0           13529433.08   
+2              2190.45              1006122.0           13529433.08   
+3               369.84              1077527.0           13210613.93   
+4                16.53               682042.0            7588029.90   
+
+   FreightCost  GrossProfit  StockturnOver  SalesPurchaseRate  
+0      3151.92   -581638.10       0.049850           0.069349  
+1     68601.68 -13409569.33       0.003106           0.008859  
+2     68601.68 -13417183.86       0.002761           0.008297  
+3     68054.70 -13193288.62       0.000435           0.001311  
+4     38994.78  -7587715.11       0.000031           0.000041  
+2026-01-09 15:42:54,094 - INFO - Ingesting data
+2026-01-09 15:45:41,342 - INFO - Creating vendor summary table
+2026-01-09 15:46:15,010 - INFO -    VendorNumber                   VendorName  Brand  \
+0          8320  SHAW ROSS INT L IMP LTD         58   
+1          1128  BROWN-FORMAN CORP               62   
+2          1128  BROWN-FORMAN CORP               63   
+3          9165  ULTRA BEVERAGE COMPANY LLP      72   
+4          7245  PROXIMO SPIRITS INC.            75   
+
+                   Description  Actual_Price  PurchasePrice Volume  \
+0  Gekkeikan Black & Gold Sake         12.99           9.28    750   
+1     Herradura Silver Tequila         36.99          28.67    750   
+2   Herradura Reposado Tequila         38.99          30.46    750   
+3         No. 3 London Dry Gin         34.99          26.11    750   
+4    Three Olives Tomato Vodka         14.99          10.94    750   
+
+   TotalsalesQuantity  TotalsalesDollers  TotalsalesPrice  \
+0              3446.0           43341.54         28145.64   
+1              3125.0          119863.75         90154.51   
+2              2778.0          112249.22         88553.10   
+3               469.0           17325.31         12626.57   
+4                21.0             314.79           134.91   
+
+   TotalsalesExciseTax  TotalpurchaseQuantity  TotalPurchaseDollars  \
+0              2715.12                69127.0             624979.64   
+1              2463.18              1006122.0           13529433.08   
+2              2190.45              1006122.0           13529433.08   
+3               369.84              1077527.0           13210613.93   
+4                16.53               682042.0            7588029.90   
+
+   FreightCost  
+0      3151.92  
+1     68601.68  
+2     68601.68  
+3     68054.70  
+4     38994.78  
+2026-01-09 15:46:15,014 - INFO - Cleaning data
+2026-01-09 15:46:15,036 - INFO -    VendorNumber                  VendorName  Brand  \
+0          8320     SHAW ROSS INT L IMP LTD     58   
+1          1128           BROWN-FORMAN CORP     62   
+2          1128           BROWN-FORMAN CORP     63   
+3          9165  ULTRA BEVERAGE COMPANY LLP     72   
+4          7245        PROXIMO SPIRITS INC.     75   
+
+                   Description  Actual_Price  PurchasePrice  Volume  \
+0  Gekkeikan Black & Gold Sake         12.99           9.28   750.0   
+1     Herradura Silver Tequila         36.99          28.67   750.0   
+2   Herradura Reposado Tequila         38.99          30.46   750.0   
+3         No. 3 London Dry Gin         34.99          26.11   750.0   
+4    Three Olives Tomato Vodka         14.99          10.94   750.0   
+
+   TotalsalesQuantity  TotalsalesDollers  TotalsalesPrice  \
+0              3446.0           43341.54         28145.64   
+1              3125.0          119863.75         90154.51   
+2              2778.0          112249.22         88553.10   
+3               469.0           17325.31         12626.57   
+4                21.0             314.79           134.91   
+
+   TotalsalesExciseTax  TotalpurchaseQuantity  TotalPurchaseDollars  \
+0              2715.12                69127.0             624979.64   
+1              2463.18              1006122.0           13529433.08   
+2              2190.45              1006122.0           13529433.08   
+3               369.84              1077527.0           13210613.93   
+4                16.53               682042.0            7588029.90   
+
+   FreightCost  GrossProfit  StockturnOver  SalesPurchaseRate  
+0      3151.92   -581638.10       0.049850           0.069349  
+1     68601.68 -13409569.33       0.003106           0.008859  
+2     68601.68 -13417183.86       0.002761           0.008297  
+3     68054.70 -13193288.62       0.000435           0.001311  
+4     38994.78  -7587715.11       0.000031           0.000041  
+2026-01-09 15:46:15,043 - INFO - Ingesting data
+2026-01-09 15:47:43,132 - INFO - Creating vendor summary table
+2026-01-09 15:48:17,383 - INFO -    VendorNumber                   VendorName  Brand  \
+0          8320  SHAW ROSS INT L IMP LTD         58   
+1          1128  BROWN-FORMAN CORP               62   
+2          1128  BROWN-FORMAN CORP               63   
+3          9165  ULTRA BEVERAGE COMPANY LLP      72   
+4          7245  PROXIMO SPIRITS INC.            75   
+
+                   Description  Actual_Price  PurchasePrice Volume  \
+0  Gekkeikan Black & Gold Sake         12.99           9.28    750   
+1     Herradura Silver Tequila         36.99          28.67    750   
+2   Herradura Reposado Tequila         38.99          30.46    750   
+3         No. 3 London Dry Gin         34.99          26.11    750   
+4    Three Olives Tomato Vodka         14.99          10.94    750   
+
+   TotalsalesQuantity  TotalsalesDollers  TotalsalesPrice  \
+0              3446.0           43341.54         28145.64   
+1              3125.0          119863.75         90154.51   
+2              2778.0          112249.22         88553.10   
+3               469.0           17325.31         12626.57   
+4                21.0             314.79           134.91   
+
+   TotalsalesExciseTax  TotalpurchaseQuantity  TotalPurchaseDollars  \
+0              2715.12                69127.0             624979.64   
+1              2463.18              1006122.0           13529433.08   
+2              2190.45              1006122.0           13529433.08   
+3               369.84              1077527.0           13210613.93   
+4                16.53               682042.0            7588029.90   
+
+   FreightCost  
+0      3151.92  
+1     68601.68  
+2     68601.68  
+3     68054.70  
+4     38994.78  
+2026-01-09 15:48:17,389 - INFO - Cleaning data
+2026-01-09 15:48:17,438 - INFO -    VendorNumber                  VendorName  Brand  \
+0          8320     SHAW ROSS INT L IMP LTD     58   
+1          1128           BROWN-FORMAN CORP     62   
+2          1128           BROWN-FORMAN CORP     63   
+3          9165  ULTRA BEVERAGE COMPANY LLP     72   
+4          7245        PROXIMO SPIRITS INC.     75   
+
+                   Description  Actual_Price  PurchasePrice  Volume  \
+0  Gekkeikan Black & Gold Sake         12.99           9.28   750.0   
+1     Herradura Silver Tequila         36.99          28.67   750.0   
+2   Herradura Reposado Tequila         38.99          30.46   750.0   
+3         No. 3 London Dry Gin         34.99          26.11   750.0   
+4    Three Olives Tomato Vodka         14.99          10.94   750.0   
+
+   TotalsalesQuantity  TotalsalesDollers  TotalsalesPrice  \
+0              3446.0           43341.54         28145.64   
+1              3125.0          119863.75         90154.51   
+2              2778.0          112249.22         88553.10   
+3               469.0           17325.31         12626.57   
+4                21.0             314.79           134.91   
+
+   TotalsalesExciseTax  TotalpurchaseQuantity  TotalPurchaseDollars  \
+0              2715.12                69127.0             624979.64   
+1              2463.18              1006122.0           13529433.08   
+2              2190.45              1006122.0           13529433.08   
+3               369.84              1077527.0           13210613.93   
+4                16.53               682042.0            7588029.90   
+
+   FreightCost  GrossProfit  StockturnOver  SalesPurchaseRate  
+0      3151.92   -581638.10       0.049850           0.069349  
+1     68601.68 -13409569.33       0.003106           0.008859  
+2     68601.68 -13417183.86       0.002761           0.008297  
+3     68054.70 -13193288.62       0.000435           0.001311  
+4     38994.78  -7587715.11       0.000031           0.000041  
+2026-01-09 15:48:17,444 - INFO - Ingesting data
+2026-01-09 15:48:18,502 - INFO - Completed successfully
+2026-01-09 15:49:22,368 - INFO - Creating vendor summary table
+2026-01-09 15:49:56,637 - INFO -    VendorNumber                   VendorName  Brand  \
+0          8320  SHAW ROSS INT L IMP LTD         58   
+1          1128  BROWN-FORMAN CORP               62   
+2          1128  BROWN-FORMAN CORP               63   
+3          9165  ULTRA BEVERAGE COMPANY LLP      72   
+4          7245  PROXIMO SPIRITS INC.            75   
+
+                   Description  Actual_Price  PurchasePrice Volume  \
+0  Gekkeikan Black & Gold Sake         12.99           9.28    750   
+1     Herradura Silver Tequila         36.99          28.67    750   
+2   Herradura Reposado Tequila         38.99          30.46    750   
+3         No. 3 London Dry Gin         34.99          26.11    750   
+4    Three Olives Tomato Vodka         14.99          10.94    750   
+
+   TotalsalesQuantity  TotalsalesDollers  TotalsalesPrice  \
+0              3446.0           43341.54         28145.64   
+1              3125.0          119863.75         90154.51   
+2              2778.0          112249.22         88553.10   
+3               469.0           17325.31         12626.57   
+4                21.0             314.79           134.91   
+
+   TotalsalesExciseTax  TotalpurchaseQuantity  TotalPurchaseDollars  \
+0              2715.12                69127.0             624979.64   
+1              2463.18              1006122.0           13529433.08   
+2              2190.45              1006122.0           13529433.08   
+3               369.84              1077527.0           13210613.93   
+4                16.53               682042.0            7588029.90   
+
+   FreightCost  
+0      3151.92  
+1     68601.68  
+2     68601.68  
+3     68054.70  
+4     38994.78  
+2026-01-09 15:49:56,645 - INFO - Cleaning data
+2026-01-09 15:49:56,712 - INFO -    VendorNumber                  VendorName  Brand  \
+0          8320     SHAW ROSS INT L IMP LTD     58   
+1          1128           BROWN-FORMAN CORP     62   
+2          1128           BROWN-FORMAN CORP     63   
+3          9165  ULTRA BEVERAGE COMPANY LLP     72   
+4          7245        PROXIMO SPIRITS INC.     75   
+
+                   Description  Actual_Price  PurchasePrice  Volume  \
+0  Gekkeikan Black & Gold Sake         12.99           9.28   750.0   
+1     Herradura Silver Tequila         36.99          28.67   750.0   
+2   Herradura Reposado Tequila         38.99          30.46   750.0   
+3         No. 3 London Dry Gin         34.99          26.11   750.0   
+4    Three Olives Tomato Vodka         14.99          10.94   750.0   
+
+   TotalsalesQuantity  TotalsalesDollers  TotalsalesPrice  \
+0              3446.0           43341.54         28145.64   
+1              3125.0          119863.75         90154.51   
+2              2778.0          112249.22         88553.10   
+3               469.0           17325.31         12626.57   
+4                21.0             314.79           134.91   
+
+   TotalsalesExciseTax  TotalpurchaseQuantity  TotalPurchaseDollars  \
+0              2715.12                69127.0             624979.64   
+1              2463.18              1006122.0           13529433.08   
+2              2190.45              1006122.0           13529433.08   
+3               369.84              1077527.0           13210613.93   
+4                16.53               682042.0            7588029.90   
+
+   FreightCost  GrossProfit  StockturnOver  SalesPurchaseRate  
+0      3151.92   -581638.10       0.049850           0.069349  
+1     68601.68 -13409569.33       0.003106           0.008859  
+2     68601.68 -13417183.86       0.002761           0.008297  
+3     68054.70 -13193288.62       0.000435           0.001311  
+4     38994.78  -7587715.11       0.000031           0.000041  
+2026-01-09 15:49:56,721 - INFO - Ingesting data
+2026-01-09 15:49:57,873 - INFO - Completed successfully
+2026-01-09 15:50:22,896 - INFO - Creating vendor summary table
+2026-01-09 15:50:57,571 - INFO -    VendorNumber                   VendorName  Brand  \
+0          8320  SHAW ROSS INT L IMP LTD         58   
+1          1128  BROWN-FORMAN CORP               62   
+2          1128  BROWN-FORMAN CORP               63   
+3          9165  ULTRA BEVERAGE COMPANY LLP      72   
+4          7245  PROXIMO SPIRITS INC.            75   
+
+                   Description  Actual_Price  PurchasePrice Volume  \
+0  Gekkeikan Black & Gold Sake         12.99           9.28    750   
+1     Herradura Silver Tequila         36.99          28.67    750   
+2   Herradura Reposado Tequila         38.99          30.46    750   
+3         No. 3 London Dry Gin         34.99          26.11    750   
+4    Three Olives Tomato Vodka         14.99          10.94    750   
+
+   TotalsalesQuantity  TotalsalesDollers  TotalsalesPrice  \
+0              3446.0           43341.54         28145.64   
+1              3125.0          119863.75         90154.51   
+2              2778.0          112249.22         88553.10   
+3               469.0           17325.31         12626.57   
+4                21.0             314.79           134.91   
+
+   TotalsalesExciseTax  TotalpurchaseQuantity  TotalPurchaseDollars  \
+0              2715.12                69127.0             624979.64   
+1              2463.18              1006122.0           13529433.08   
+2              2190.45              1006122.0           13529433.08   
+3               369.84              1077527.0           13210613.93   
+4                16.53               682042.0            7588029.90   
+
+   FreightCost  
+0      3151.92  
+1     68601.68  
+2     68601.68  
+3     68054.70  
+4     38994.78  
+2026-01-09 15:50:57,577 - INFO - Cleaning data
+2026-01-09 15:50:57,627 - INFO -    VendorNumber                  VendorName  Brand  \
+0          8320     SHAW ROSS INT L IMP LTD     58   
+1          1128           BROWN-FORMAN CORP     62   
+2          1128           BROWN-FORMAN CORP     63   
+3          9165  ULTRA BEVERAGE COMPANY LLP     72   
+4          7245        PROXIMO SPIRITS INC.     75   
+
+                   Description  Actual_Price  PurchasePrice  Volume  \
+0  Gekkeikan Black & Gold Sake         12.99           9.28   750.0   
+1     Herradura Silver Tequila         36.99          28.67   750.0   
+2   Herradura Reposado Tequila         38.99          30.46   750.0   
+3         No. 3 London Dry Gin         34.99          26.11   750.0   
+4    Three Olives Tomato Vodka         14.99          10.94   750.0   
+
+   TotalsalesQuantity  TotalsalesDollers  TotalsalesPrice  \
+0              3446.0           43341.54         28145.64   
+1              3125.0          119863.75         90154.51   
+2              2778.0          112249.22         88553.10   
+3               469.0           17325.31         12626.57   
+4                21.0             314.79           134.91   
+
+   TotalsalesExciseTax  TotalpurchaseQuantity  TotalPurchaseDollars  \
+0              2715.12                69127.0             624979.64   
+1              2463.18              1006122.0           13529433.08   
+2              2190.45              1006122.0           13529433.08   
+3               369.84              1077527.0           13210613.93   
+4                16.53               682042.0            7588029.90   
+
+   FreightCost  GrossProfit  StockturnOver  SalesPurchaseRate  
+0      3151.92   -581638.10       0.049850           0.069349  
+1     68601.68 -13409569.33       0.003106           0.008859  
+2     68601.68 -13417183.86       0.002761           0.008297  
+3     68054.70 -13193288.62       0.000435           0.001311  
+4     38994.78  -7587715.11       0.000031           0.000041  
+2026-01-09 15:50:57,633 - INFO - Ingesting data
+2026-01-09 15:50:58,617 - INFO - Completed successfully

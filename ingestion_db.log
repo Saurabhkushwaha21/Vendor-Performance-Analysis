@@ -1,0 +1,14 @@
+2026-01-07 10:36:38,109 - INFO - Ingesting begin_inventory.csv into database
+2026-01-07 10:36:47,544 - INFO - Ingesting end_inventory.csv into database
+2026-01-07 10:36:55,711 - INFO - Ingesting purchase_prices.csv into database
+2026-01-07 10:37:19,909 - INFO - Ingesting sales.csv into database
+2026-01-07 10:48:15,362 - INFO - Ingesting vendor_invoice.csv into database
+2026-01-07 10:48:15,977 - INFO - ------- Ingesting Complete ----------
+2026-01-07 10:48:15,977 - INFO - Total time taken: 11.64 minutes
+2026-01-09 15:25:25,907 - INFO - Ingesting begin_inventory.csv into database
+2026-01-09 15:25:35,958 - INFO - Ingesting end_inventory.csv into database
+2026-01-09 15:25:49,310 - INFO - Ingesting purchases.csv into database
+2026-01-09 15:27:57,463 - INFO - Ingesting purchase_prices.csv into database
+2026-01-09 15:28:23,163 - INFO - Ingesting sales.csv into database
+2026-01-09 15:39:38,292 - INFO - ------- Ingesting Complete ----------
+2026-01-09 15:39:38,293 - INFO - Total time taken: 14.21 minutes
